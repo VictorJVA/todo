@@ -10,7 +10,7 @@ services:
       - MYSQL_USER=root
       - MYSQL_PASSWORD=password
       - MYSQL_HOST=35.232.156.207
-      - MYSQL_ROOT_PASSWORD=pasword
+      - MYSQL_ROOT_PASSWORD=password
     volumes:
       - /tmp/code/mysqld:/var/run/mysqld
       - ./db:/var/lib/mysql
